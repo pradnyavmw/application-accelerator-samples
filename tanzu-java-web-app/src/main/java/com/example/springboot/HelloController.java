@@ -9,7 +9,8 @@ public class HelloController {
 	@RequestMapping("/")
 	public String index() {
 		//return "Greetings from Spring Boot- edit1 + Tanzu!";
-		return "Greetings from Spring Boot-  VMWARE!";	
+		//return "Greetings from Spring Boot-  VMWARE!";	
+		return "Greetings from Spring Boot-  Runtime!";	
 	}
 
 }
