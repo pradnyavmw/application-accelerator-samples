@@ -12,14 +12,15 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		//return "Greetings from Spring Boot- edit1 + Tanzu!";
+		//return "Greetings from Spring Boot- edit1git t + Tanzu!";
 		//return "Greetings from Spring Boot-  VMWARE!";	
-		return "Greetings from Spring Boot-  Vmware!";	
+		//return "Greetings from Spring Boot-  Vmware!";	
+		return "Greetings from " + target;
 	}
-	@RequestMapping("/hello")
-	public String hello(){
-      return "Hello000000-" + target + "!";
-	}
+	// @RequestMapping("/hello")
+	// public String hello(){
+    //   return "Hello000000-" + target + "!";
+	// }
 }
 
 
