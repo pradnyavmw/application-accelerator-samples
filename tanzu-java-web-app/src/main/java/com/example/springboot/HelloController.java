@@ -15,8 +15,7 @@ public class HelloController {
 	String target;
 
 
-Read more: https://javarevisited.blogspot.com/2012/08/how-to-get-environment-variables-in.html#ixzz87Ome5g8F
-	@RequestMapping("/")
+ 	@RequestMapping("/")
 	public String index() {
   		String message = System.getenv("TARGET");
 		if(message==null)
